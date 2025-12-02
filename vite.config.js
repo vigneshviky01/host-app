@@ -11,7 +11,7 @@ export default defineConfig({
       remotes: {
         // remote_app is the same "name" from the remote's config
         // URL must point to the remoteEntry.js served by remote-app
-        remote_app: 'http://localhost:4174/assets/remoteEntry.js'
+        remote_app: 'https://mfremoteapp.netlify.app/assets/remoteEntry.js'
       },
       shared: ['react', 'react-dom']
     })
