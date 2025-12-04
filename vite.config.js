@@ -11,11 +11,13 @@ export default defineConfig({
       remotes: {
         // remote_app is the same "name" from the remote's config
         // URL must point to the remoteEntry.js served by remote-app
-        remote_app: 'https://mfremoteapp.netlify.app/assets/remoteEntry.js'
+        // remote_app: 'https://mfremoteapp.netlify.app/assets/remoteEntry.js'
+          remote_app: 'https://poc-mf-remote-app-empathic-alligator-sp.cfapps.eu10-004.hana.ondemand.com/assets/remoteEntry.js'
       },
       shared: ['react', 'react-dom']
     })
   ],
+  base: '/',
   build: {
     // target: 'esnext',
     modulePreload: false,
